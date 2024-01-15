@@ -31,7 +31,7 @@ export default function NavBar() {
               ISR
             </Nav.Link>
             <NavDropdown title="Tópicos" id="topic-dropdown">
-                <NavDropdown.Item as={Link} href="/topics/dog">Garotas</NavDropdown.Item>
+                <NavDropdown.Item as={Link} href="/topics/dog">Cachorro</NavDropdown.Item>
                 <NavDropdown.Item as={Link} href="/topics/gym">Academia</NavDropdown.Item>
                 <NavDropdown.Item as={Link} href="/topics/tecnology">Tecnologia</NavDropdown.Item>
             </NavDropdown>
