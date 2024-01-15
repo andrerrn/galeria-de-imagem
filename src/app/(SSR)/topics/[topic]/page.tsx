@@ -16,7 +16,7 @@ export function generateMetadata({params: {topic}}: PageProps): Metadata {
 }
 
 export function generateStaticParams() {
-    return ["girls", "gym", "tecnology"].map(topic => ({ topic }));
+    return ["dog", "gym", "tecnology"].map(topic => ({ topic }));
 }
 
 export default async function Page({params: {topic}}: PageProps) {
